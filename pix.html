@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Realização de um PIX</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="pix.css">
+    <link rel="icon" href="Logo Banco.jfif">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center">PIX</h2>
+        <form>
+            <div class="">
+                <label for="nome">Nome Completo</label>
+                <input type="text" class="form-control" id="nome" placeholder="Digite seu nome completo">
+            </div>
+            <div class="form-group">
+                <label for="cpf">Data</label>
+                <input type="text" class="form-control" id="cpf" placeholder="Digite a Data da Transação">
+            </div>
+            <div class="form-group">
+                <label for="chavePix">Chave PIX</label>
+                <input type="text" class="form-control" id="chavePix" placeholder="Digite a chave PIX do destinatário">
+            </div>
+            <div class="form-group">
+                <label for="valor">Valor </label>
+                <input type="number" class="form-control" id="valor" placeholder="Digite o valor a ser transferido">
+            </div>
+            <div class="form-group">
+                <label for="mensagem">Mensagem (opcional)</label>
+                <input type="text" class="form-control" id="mensagem" placeholder="Digite uma mensagem (opcional)">
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Realizar PIX</button>
+        </form>
+    </div>
+    
+   
+</body>
+</html>

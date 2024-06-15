@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.s1{
+    height: 1700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(180deg, black , rgb(52, 49, 49), rgba(0, 0, 0, 0.567));
+}
+.d1{
+    height: 100%;
+    width: 70%;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+.d-info{
+    display: flex;
+}
+.saldo{
+    margin: 20px;
+    width: 50%;
+}
+.card2 {
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 10px;
+    padding: 20px;
+    width: 45%;
+    max-width: 600px;
+    margin: 20px;
+}
+
+.chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pie-chart {
+    width: 200px;
+    height: 200px;
+    background: conic-gradient(
+        #27ae60 0% 50%, 
+        #e74c3c 0% 0%, 
+        #f39c12 50% 75%, 
+        #8e44ad 75% 100%, 
+        #2980b9 0% 0% 
+    );
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.legend {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.color-box {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+.serv{
+    height: 200px;
+    width: 90%;
+    margin-top: 30px ;
+    margin-left: 40px;
+    
+}
+.serv2{
+    height: 200px;
+    width: 90%;
+    margin-left: 40px;
+    
+}

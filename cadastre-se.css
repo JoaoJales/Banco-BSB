@@ -22,3 +22,7 @@ header{
     justify-content: center;
     flex-direction: column;
 }
+.a1{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
